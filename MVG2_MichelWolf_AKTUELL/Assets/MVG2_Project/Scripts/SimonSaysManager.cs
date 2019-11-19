@@ -227,15 +227,27 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
     {
         if (stream.IsWriting == true)
         {
-            stream.SendNext(buttonsToPress);
-            stream.SendNext(pressedButtons);
+            foreach(int i in buttonsToPress)
+            {
+                stream.SendNext(buttonsToPress[i]);
+            }
+            foreach (int i in pressedButtons)
+            {
+                stream.SendNext(pressedButtons[i]);
+            }
             stream.SendNext(currentRound);
             //stream.SendNext(simonRunning);
         }
         else
         {
-            buttonsToPress = (List<int>)stream.ReceiveNext();
-            pressedButtons = (List<int>)stream.ReceiveNext();
+            foreach (int i in buttonsToPress)
+            {
+                buttonsToPress[i] = (int)stream.ReceiveNext();
+            }
+            foreach (int i in pressedButtons)
+            {
+                pressedButtons[i] = (int)stream.ReceiveNext();
+            }
             currentRound = (int)stream.ReceiveNext();
             //simonRunning = (bool)stream.ReceiveNext();
         }

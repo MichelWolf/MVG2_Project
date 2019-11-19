@@ -28,6 +28,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
     public bool simonRunning = false;
 
     [Header("Audio Clips")]
+    private List<AudioClip> audioClips;
     public AudioClip buttonSound;
     public AudioClip roundCompleteSound;
     public AudioClip successSound;
@@ -51,7 +52,11 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
             Debug.Log("No Info-Object set");
         }
         List<int> buttonsToPress = new List<int>();
-        List<int> pressedButtons = new List<int>(); 
+        List<int> pressedButtons = new List<int>();
+        audioClips.Add(buttonSound);
+        audioClips.Add(roundCompleteSound);
+        audioClips.Add(successSound);
+        audioClips.Add(failSound);
         foreach (GameObject b in gameButtons)
         {
             b.GetComponent<SimonButton>().interactable = false;
@@ -61,7 +66,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
 
     public void OnGameButtonClick(int index)
     {
-        photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, buttonSound);
+        photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, 0);
         photonView.RPC("RPCProcessSimonButton", RpcTarget.MasterClient, index);
     }
 
@@ -77,7 +82,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
         }
         if (buttonsToPress.Count == pressedButtons.Count)
         {
-            photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, buttonSound);
+            photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, 0);
             photonView.RPC("RPCStartSimonSaysCoroutine", RpcTarget.MasterClient);
         }
     }
@@ -98,7 +103,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
             b.GetComponent<SimonButton>().interactable = false;
             b.gameObject.GetComponent<MeshRenderer>().material.color = b.gameObject.GetComponent<SimonButton>().normalColor;
         }
-        photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, failSound);
+        photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, 3);
         //simonRunning = false;
     }
 
@@ -121,7 +126,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
             b.gameObject.GetComponent<MeshRenderer>().material.color = b.gameObject.GetComponent<SimonButton>().normalColor;
         }
         Debug.Log("Simon Says erfolgreich");
-        photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, successSound);
+        photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, 2);
     }
     IEnumerator SimonSays()
     {
@@ -176,9 +181,9 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
     }
 
     [PunRPC]
-    void RPCPlaySimonAudio(AudioClip clip)
+    void RPCPlaySimonAudio(int index)
     {
-        this.gameObject.GetComponent<AudioSource>().PlayOneShot(clip);
+        this.gameObject.GetComponent<AudioSource>().PlayOneShot(audioClips[index]);
     }
 
 
@@ -196,6 +201,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
         pressedButtons = new List<int>();
         buttonsToPress.Add(rg.Next(0, gameButtons.Count));
         currentRound++;
+        photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, 1);
     }
 
     public void StartSimonSays()

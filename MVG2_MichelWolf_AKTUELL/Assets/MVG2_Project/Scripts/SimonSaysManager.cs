@@ -226,45 +226,6 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
 
     void IPunObservable.OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
-        if (stream.IsWriting == true)
-        {
-            if (buttonsToPress != null)
-            {
-                foreach (int i in buttonsToPress)
-                {
-                    stream.SendNext(buttonsToPress[i]);
-                }
-            }
-            if (pressedButtons != null)
-            {
-                foreach (int i in pressedButtons)
-                {
-                    stream.SendNext(pressedButtons[i]);
-                }
-            }
-            
-            
-            stream.SendNext(currentRound);
-            //stream.SendNext(simonRunning);
-        }
-        else
-        {
-            if (buttonsToPress != null)
-            {
-                foreach (int i in buttonsToPress)
-                {
-                    buttonsToPress[i] = (int)stream.ReceiveNext();
-                }
-            }
-            if (pressedButtons != null)
-            {
-                foreach (int i in pressedButtons)
-                {
-                    pressedButtons[i] = (int)stream.ReceiveNext();
-                }
-            }
-            currentRound = (int)stream.ReceiveNext();
-            //simonRunning = (bool)stream.ReceiveNext();
-        }
+        
     }
 }

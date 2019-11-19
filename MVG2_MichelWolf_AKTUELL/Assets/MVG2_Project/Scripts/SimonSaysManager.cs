@@ -27,6 +27,12 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
 
     public bool simonRunning = false;
 
+    [Header("Audio Clips")]
+    public AudioClip buttonSound;
+    public AudioClip roundCompleteSound;
+    public AudioClip successSound;
+    public AudioClip failSound;
+
     System.Random rg;
 
     void Start()
@@ -55,7 +61,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
 
     public void OnGameButtonClick(int index)
     {
-        photonView.RPC("RPCPlaySimonAudio", RpcTarget.All);
+        photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, buttonSound);
         photonView.RPC("RPCProcessSimonButton", RpcTarget.MasterClient, index);
     }
 
@@ -71,6 +77,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
         }
         if (buttonsToPress.Count == pressedButtons.Count)
         {
+            photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, buttonSound);
             photonView.RPC("RPCStartSimonSaysCoroutine", RpcTarget.MasterClient);
         }
     }
@@ -91,6 +98,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
             b.GetComponent<SimonButton>().interactable = false;
             b.gameObject.GetComponent<MeshRenderer>().material.color = b.gameObject.GetComponent<SimonButton>().normalColor;
         }
+        photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, failSound);
         //simonRunning = false;
     }
 
@@ -113,6 +121,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
             b.gameObject.GetComponent<MeshRenderer>().material.color = b.gameObject.GetComponent<SimonButton>().normalColor;
         }
         Debug.Log("Simon Says erfolgreich");
+        photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, successSound);
     }
     IEnumerator SimonSays()
     {
@@ -167,9 +176,9 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
     }
 
     [PunRPC]
-    void RPCPlaySimonAudio()
+    void RPCPlaySimonAudio(AudioClip clip)
     {
-        this.gameObject.GetComponent<AudioSource>().PlayOneShot(this.gameObject.GetComponent<AudioSource>().clip);
+        this.gameObject.GetComponent<AudioSource>().PlayOneShot(clip);
     }
 
 

@@ -8,7 +8,7 @@ using Photon.Pun;
 using Photon.Realtime;
 
 
-public class SimonSaysManager : MonoBehaviourPunCallbacks
+public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
 {
     [Header("Buttons")]
     //pull button objects from hierarchy into list
@@ -223,7 +223,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks
         StartCoroutine(SimonSays());
     }
 
-    void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    void IPunObservable.OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
     {
         if (stream.IsWriting == true)
         {

@@ -42,5 +42,6 @@ MonoBehaviour:
   - RPCSimonGameOver
   - RPCSimonSuccess
   - RPCStartSimonSaysCoroutine
+  - RPCResetSimon
   DisableAutoOpenWizard: 1
   ShowSettings: 1

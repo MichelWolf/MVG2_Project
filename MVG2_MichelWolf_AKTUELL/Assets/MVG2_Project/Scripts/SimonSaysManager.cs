@@ -13,14 +13,14 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks
     [Header("Buttons")]
     //pull button objects from hierarchy into list
     public List<GameObject> gameButtons;
-    
+
     //Object that shows which color to press
     public GameObject infoObj;
     private MeshRenderer infoObjMR;
 
     [Header("Round Settings")]
     public int maxRounds = 4;
-    int currentRound = 0;
+    public int currentRound = 0;
 
     List<int> buttonsToPress;
     List<int> pressedButtons;
@@ -28,7 +28,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks
     public bool simonRunning = false;
 
     System.Random rg;
-    
+
     void Start()
     {
         if (!PhotonNetwork.IsConnected)
@@ -90,7 +90,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks
             b.GetComponent<SimonButton>().interactable = false;
             b.gameObject.GetComponent<MeshRenderer>().material.color = b.gameObject.GetComponent<SimonButton>().normalColor;
         }
-        simonRunning = false;
+        //simonRunning = false;
     }
 
     void Success()
@@ -98,7 +98,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks
         buttonsToPress = new List<int>();
         pressedButtons = new List<int>();
         currentRound = 0;
-        simonRunning = false;
+        //simonRunning = false;
 
         photonView.RPC("RPCSimonSuccess", RpcTarget.All);
     }
@@ -190,10 +190,19 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks
 
     public void StartSimonSays()
     {
-        if (simonRunning == false)
-        {
-            photonView.RPC("RPCStartSimonSaysCoroutine", RpcTarget.MasterClient);
-        }
+        //if (simonRunning == false)
+        //{
+        photonView.RPC("RPCResetSimon", RpcTarget.MasterClient);
+        photonView.RPC("RPCStartSimonSaysCoroutine", RpcTarget.MasterClient);
+        //}
+    }
+
+    [PunRPC]
+    void RPCResetSimon()
+    {
+        currentRound = 0;
+        buttonsToPress = new List<int>();
+        pressedButtons = new List<int>();
     }
 
     [PunRPC]
@@ -201,7 +210,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks
     {
         if (currentRound == 0)
         {
-            simonRunning = true;
+            //simonRunning = true;
             rg = new System.Random();
             buttonsToPress = new List<int>();
             pressedButtons = new List<int>();
@@ -221,14 +230,14 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks
             stream.SendNext(buttonsToPress);
             stream.SendNext(pressedButtons);
             stream.SendNext(currentRound);
-            stream.SendNext(simonRunning);
+            //stream.SendNext(simonRunning);
         }
         else
         {
             buttonsToPress = (List<int>)stream.ReceiveNext();
             pressedButtons = (List<int>)stream.ReceiveNext();
             currentRound = (int)stream.ReceiveNext();
-            simonRunning = (bool)stream.ReceiveNext();
+            //simonRunning = (bool)stream.ReceiveNext();
         }
     }
 }

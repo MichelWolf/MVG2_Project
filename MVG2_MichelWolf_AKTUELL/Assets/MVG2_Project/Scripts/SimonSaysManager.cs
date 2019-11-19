@@ -28,7 +28,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
     public bool simonRunning = false;
 
     [Header("Audio Clips")]
-    private List<AudioClip> audioClips;
+    public List<AudioClip> audioClips;
     public AudioClip buttonSound;
     public AudioClip roundCompleteSound;
     public AudioClip successSound;
@@ -53,7 +53,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
         }
         List<int> buttonsToPress = new List<int>();
         List<int> pressedButtons = new List<int>();
-        List<AudioClip> audioClips = new List<AudioClip>();
+        audioClips = new List<AudioClip>();
 
         audioClips.Add(buttonSound);
         audioClips.Add(roundCompleteSound);
@@ -185,6 +185,10 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
     [PunRPC]
     void RPCPlaySimonAudio(int index)
     {
+        Debug.Log(this.gameObject.GetComponent<AudioSource>());
+        Debug.Log(index);
+        Debug.Log(audioClips[index]);
+        Debug.Log(audioClips);
         this.gameObject.GetComponent<AudioSource>().PlayOneShot(audioClips[index]);
     }
 

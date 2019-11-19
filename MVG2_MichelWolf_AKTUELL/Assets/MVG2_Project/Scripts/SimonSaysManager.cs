@@ -44,7 +44,8 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
         {
             Debug.Log("No Info-Object set");
         }
-
+        List<int> buttonsToPress = new List<int>();
+        List<int> pressedButtons = new List<int>(); 
         foreach (GameObject b in gameButtons)
         {
             b.GetComponent<SimonButton>().interactable = false;

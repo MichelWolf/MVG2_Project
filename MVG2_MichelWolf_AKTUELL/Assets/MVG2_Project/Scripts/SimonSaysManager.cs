@@ -51,14 +51,15 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
         {
             Debug.Log("No Info-Object set");
         }
-        List<int> buttonsToPress = new List<int>();
-        List<int> pressedButtons = new List<int>();
-        audioClips = new List<AudioClip>();
-
-        audioClips.Add(buttonSound);
-        audioClips.Add(roundCompleteSound);
-        audioClips.Add(successSound);
-        audioClips.Add(failSound);
+        buttonsToPress = new List<int>();
+        pressedButtons = new List<int>();
+        audioClips = new List<AudioClip>
+        {
+            buttonSound,
+            roundCompleteSound,
+            successSound,
+            failSound
+        };
         foreach (GameObject b in gameButtons)
         {
             b.GetComponent<SimonButton>().interactable = false;
@@ -156,7 +157,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
             yield return new WaitForSeconds(0.6f);
         }
 
-        infoObjMR.material.color = Color.black;
+        
         photonView.RPC("RPCActivateSimonButtons", RpcTarget.All);
 
         yield return null;
@@ -175,6 +176,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
     [PunRPC]
     void RPCActivateSimonButtons()
     {
+        infoObjMR.material.color = Color.black;
         foreach (GameObject b in gameButtons)
         {
             b.GetComponent<SimonButton>().interactable = true;
@@ -185,10 +187,6 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
     [PunRPC]
     void RPCPlaySimonAudio(int index)
     {
-        Debug.Log(this.gameObject.GetComponent<AudioSource>());
-        Debug.Log(index);
-        Debug.Log(audioClips[index]);
-        Debug.Log(audioClips);
         this.gameObject.GetComponent<AudioSource>().PlayOneShot(audioClips[index]);
     }
 

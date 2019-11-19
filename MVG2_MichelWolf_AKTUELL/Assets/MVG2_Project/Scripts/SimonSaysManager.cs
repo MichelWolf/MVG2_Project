@@ -194,8 +194,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
     {
         //InfoImage.color = gameButtons[index].gameObject.GetComponent<Image>().color;
         infoObjMR.material.color = gameButtons[index].gameObject.GetComponent<SimonButton>().normalColor;
-        this.gameObject.GetComponent<AudioSource>().PlayOneShot(this.gameObject.GetComponent<AudioSource>().clip);
-
+        this.gameObject.GetComponent<AudioSource>().PlayOneShot(buttonSound);
     }
 
     void NextRound()

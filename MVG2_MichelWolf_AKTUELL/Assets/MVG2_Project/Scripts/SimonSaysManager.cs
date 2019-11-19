@@ -53,6 +53,8 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
         }
         List<int> buttonsToPress = new List<int>();
         List<int> pressedButtons = new List<int>();
+        List<AudioClip> audioClips = new List<AudioClip>();
+
         audioClips.Add(buttonSound);
         audioClips.Add(roundCompleteSound);
         audioClips.Add(successSound);

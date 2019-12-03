@@ -73,15 +73,15 @@ public class LabyrinthManager : MonoBehaviourPunCallbacks, IPunObservable
         {
             moveDirection -= new Vector3(0, 1, 0);
         }
-        else if (dir == direction.up)
+        else if (dir == direction.down)
         {
             moveDirection -= new Vector3(0, -1, 0);
         }
-        else if (dir == direction.up)
+        else if (dir == direction.left)
         {
             moveDirection -= new Vector3(1, 0, 0);
         }
-        else if (dir == direction.up)
+        else if (dir == direction.right)
         {
             moveDirection -= new Vector3(-1, 0, 0);
         }

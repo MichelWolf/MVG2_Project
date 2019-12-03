@@ -43,5 +43,7 @@ MonoBehaviour:
   - RPCSimonSuccess
   - RPCStartSimonSaysCoroutine
   - RPCResetSimon
+  - RPCProcessMultiButton
+  - RPCSuccessMultiButton
   DisableAutoOpenWizard: 1
   ShowSettings: 1

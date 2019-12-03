@@ -34,6 +34,8 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
     public AudioClip successSound;
     public AudioClip failSound;
 
+    public bool simonSaysDone = false;
+
     System.Random rg;
 
     void Start()
@@ -129,6 +131,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
             b.gameObject.GetComponent<MeshRenderer>().material.color = b.gameObject.GetComponent<SimonButton>().normalColor;
         }
         Debug.Log("Simon Says erfolgreich");
+        simonSaysDone = true;
         photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, 2);
     }
     IEnumerator SimonSays()

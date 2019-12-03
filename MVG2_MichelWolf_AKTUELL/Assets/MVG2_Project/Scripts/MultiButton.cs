@@ -1,8 +1,10 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Photon.Pun;
+using Photon.Realtime;
 
-public class MultiButton : MonoBehaviour 
+public class MultiButton : MonoBehaviourPunCallbacks, IPunObservable
 {
     
     public int controllerInside = 0;
@@ -23,7 +25,8 @@ public class MultiButton : MonoBehaviour
         //TODO:: State if button active or inactive instead of enabling/disabling colliders
         if (other.gameObject.tag == "ControllerColliderL" || other.gameObject.tag == "ControllerColliderR")
         {
-            controllerInside++;
+            //controllerInside++;
+            photonView.RPC("RPCControllerEnterMultiButton", RpcTarget.All);
             Debug.Log("ENTER: MultiButton ");
             if (controllerInside == 1)
             {
@@ -32,17 +35,35 @@ public class MultiButton : MonoBehaviour
         }
     }
 
+    [PunRPC]
+    void RPCControllerEnterMultiButton()
+    {
+        controllerInside++;
+    }
+
     void OnTriggerExit(Collider other)
     {
         if (other.gameObject.tag == "ControllerColliderL" || other.gameObject.tag == "ControllerColliderR")
         {
             Debug.Log("EXIT: MultiButton ");
-            controllerInside--;
-            if(controllerInside == 0)
+            //controllerInside--;
+            photonView.RPC("RPCControllerExitMultiButton", RpcTarget.All);
+
+            if (controllerInside == 0)
             {
                 FindObjectOfType<MultiButtonInteractionManager>().OnMultiButtonClick(false);
             }
         }
     }
 
+    [PunRPC]
+    void RPCControllerExitMultiButton()
+    {
+        controllerInside--;
+    }
+
+    public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)
+    {
+        throw new System.NotImplementedException();
+    }
 }

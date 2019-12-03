@@ -2,10 +2,10 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+    public enum direction { up, down, left, right};
 public class ArrowButton : MonoBehaviour {
 
-    public string direction;
-
+    public direction dir;
     public bool pressed;
 	// Use this for initialization
 	void Start () {
@@ -25,7 +25,7 @@ public class ArrowButton : MonoBehaviour {
         {
             pressed = true;
             //controllerInside++;
-            FindObjectOfType<LabyrinthManager>().HandleArrowButton(direction);
+            FindObjectOfType<LabyrinthManager>().HandleArrowButton(dir);
             
         }
     }
@@ -37,7 +37,7 @@ public class ArrowButton : MonoBehaviour {
         {
             if(pressed)
             {
-                FindObjectOfType<LabyrinthManager>().StopPlayer(direction);
+                FindObjectOfType<LabyrinthManager>().StopPlayer(dir);
                 pressed = false;
             }
             Debug.Log("EXIT: MultiButton ");

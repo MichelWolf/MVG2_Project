@@ -25,27 +25,27 @@ public class LabyrinthManager : MonoBehaviourPunCallbacks, IPunObservable
         labyrinthPlayer.transform.position += moveDirection * Time.deltaTime * speed;
 	}
 
-    public void HandleArrowButton(string dir)
+    public void HandleArrowButton(direction dir)
     {
         photonView.RPC("RPCArrowButtonIn", RpcTarget.All, dir);
     }
 
     [PunRPC]
-    void RPCArrowButtonIn(string dir)
+    void RPCArrowButtonIn(direction dir)
     {
-        if (dir == "up")
+        if (dir == direction.up)
         {
             moveDirection += new Vector3(0, 1, 0);
         }
-        else if (dir == "down")
+        else if (dir == direction.down)
         {
             moveDirection += new Vector3(0, -1, 0);
         }
-        else if (dir == "left")
+        else if (dir == direction.left)
         {
             moveDirection += new Vector3(1, 0, 0);
         }
-        else if (dir == "right")
+        else if (dir == direction.right)
         {
             moveDirection += new Vector3(-1, 0, 0);
         }
@@ -62,26 +62,26 @@ public class LabyrinthManager : MonoBehaviourPunCallbacks, IPunObservable
     }
 
 
-    public void StopPlayer(string dir)
+    public void StopPlayer(direction dir)
     {
         photonView.RPC("RPCArrowButtonOut", RpcTarget.All, dir);
     }
     [PunRPC]
-    void RPCArrowButtonOut(string dir)
+    void RPCArrowButtonOut(direction dir)
     {
-        if (dir == "up")
+        if (dir == direction.up)
         {
             moveDirection -= new Vector3(0, 1, 0);
         }
-        else if (dir == "down")
+        else if (dir == direction.up)
         {
             moveDirection -= new Vector3(0, -1, 0);
         }
-        else if (dir == "left")
+        else if (dir == direction.up)
         {
             moveDirection -= new Vector3(1, 0, 0);
         }
-        else if (dir == "right")
+        else if (dir == direction.up)
         {
             moveDirection -= new Vector3(-1, 0, 0);
         }

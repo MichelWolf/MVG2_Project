@@ -22,6 +22,14 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
     public int maxRounds = 4;
     public int currentRound = 0;
 
+    [Header("Progress Bar")]
+    public GameObject progressStart;
+    public GameObject progressEnd;
+    public GameObject progressPrefab;
+    public Color simonSuccessColor;
+    public Color simonFailColor;
+    public GameObject[] progressObjects;
+
     List<int> buttonsToPress;
     List<int> pressedButtons;
 
@@ -67,6 +75,18 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
             b.GetComponent<SimonButton>().interactable = false;
             b.gameObject.GetComponent<MeshRenderer>().material.color = b.gameObject.GetComponent<SimonButton>().normalColor;
         }
+
+        progressObjects = new GameObject[maxRounds];
+        Vector3 simonProgressVector = progressEnd.transform.position - progressStart.transform.position;
+        Debug.Log(simonProgressVector);
+        for (int i = 0; i < maxRounds; i++)
+        {
+            progressObjects[i] = Instantiate(progressPrefab, progressStart.transform.position + new Vector3(simonProgressVector.x, simonProgressVector.y, simonProgressVector.z) * ((1.0f/(maxRounds+1))*(i+1)) , Quaternion.identity);
+            Debug.Log(new Vector3(simonProgressVector.x, simonProgressVector.y, simonProgressVector.z));// * ((1 / maxRounds) * (i + 1)));
+                                                                                                        //simonProgressVector * (1 / maxRounds),);,
+            progressObjects[i].GetComponent<MeshRenderer>().material.color = simonFailColor;
+        }
+        photonView.RPC("RPCSetProgressBar", RpcTarget.All, currentRound, maxRounds);
     }
 
     public void OnGameButtonClick(int index)
@@ -97,7 +117,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
         buttonsToPress = new List<int>();
         pressedButtons = new List<int>();
         currentRound = 0;
-        photonView.RPC("RPCSimonGameOver", RpcTarget.All);
+        photonView.RPC("RPCSimonGameOver", RpcTarget.All);        
     }
 
     [PunRPC]
@@ -107,6 +127,10 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
         {
             b.GetComponent<SimonButton>().interactable = false;
             b.gameObject.GetComponent<MeshRenderer>().material.color = b.gameObject.GetComponent<SimonButton>().normalColor;
+        }
+        for (int i = 0; i < maxRounds; i++)
+        {
+            progressObjects[i].GetComponent<MeshRenderer>().material.color = simonFailColor;
         }
         photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, 3);
         //simonRunning = false;
@@ -136,6 +160,8 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
     }
     IEnumerator SimonSays()
     {
+        photonView.RPC("RPCSetProgressBar", RpcTarget.All, currentRound, maxRounds);
+
         if (currentRound == maxRounds)
         {
             Success();
@@ -143,9 +169,6 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
         }
 
         photonView.RPC("RPCDeactivateSimonButtons", RpcTarget.All);
-
-
-        //"hakunamatata".GetHashCode()
 
 
         NextRound();
@@ -243,6 +266,22 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
             }
         }
         StartCoroutine(SimonSays());
+    }
+
+    [PunRPC]
+    void RPCSetProgressBar(int currR, int maxR)
+    {
+        for (int i = 0; i < currR; i++)
+        {
+            progressObjects[i].GetComponent<MeshRenderer>().material.color = simonSuccessColor;
+        }
+        if (currR <= maxR-1)
+        {
+            for (int i = (currR + 1); i < maxR; i++)
+            {
+                progressObjects[i].GetComponent<MeshRenderer>().material.color = simonFailColor;
+            }
+        }
     }
 
     void IPunObservable.OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)

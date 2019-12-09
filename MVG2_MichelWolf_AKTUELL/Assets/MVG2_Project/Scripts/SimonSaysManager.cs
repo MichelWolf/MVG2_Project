@@ -155,7 +155,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
             b.gameObject.GetComponent<MeshRenderer>().material.color = b.gameObject.GetComponent<SimonButton>().normalColor;
         }
         Debug.Log("Simon Says erfolgreich");
-        simonSaysDone = true;
+        FindObjectOfType<PuzzleBoxManager>().SetSimonSuccess();
         photonView.RPC("RPCPlaySimonAudio", RpcTarget.All, 2);
     }
     IEnumerator SimonSays()

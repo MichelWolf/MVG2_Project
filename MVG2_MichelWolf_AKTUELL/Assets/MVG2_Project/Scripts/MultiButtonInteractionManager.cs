@@ -49,7 +49,7 @@ public class MultiButtonInteractionManager : MonoBehaviourPunCallbacks, IPunObse
     [PunRPC]
     void RPCSuccessMultiButton()
     {
-        multiButtonsDone = true;
+        FindObjectOfType<PuzzleBoxManager>().SetMultiSuccess();
     }
 
     void IPunObservable.OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)

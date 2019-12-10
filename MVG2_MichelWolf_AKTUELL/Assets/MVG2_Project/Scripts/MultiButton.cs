@@ -9,6 +9,9 @@ public class MultiButton : MonoBehaviourPunCallbacks, IPunObservable
     
     public int controllerInside = 0;
 
+    public Color normalColor;
+    public Color highlightColor;
+
     // Use this for initialization
     void Start () {
 		
@@ -27,6 +30,7 @@ public class MultiButton : MonoBehaviourPunCallbacks, IPunObservable
         {
             //controllerInside++;
             photonView.RPC("RPCControllerEnterMultiButton", RpcTarget.All);
+            gameObject.GetComponent<MeshRenderer>().material.color = highlightColor;
             Debug.Log("ENTER: MultiButton ");
             if (controllerInside == 1)
             {
@@ -48,9 +52,10 @@ public class MultiButton : MonoBehaviourPunCallbacks, IPunObservable
             Debug.Log("EXIT: MultiButton ");
             //controllerInside--;
             photonView.RPC("RPCControllerExitMultiButton", RpcTarget.All);
-
+            
             if (controllerInside == 0)
             {
+                gameObject.GetComponent<MeshRenderer>().material.color = normalColor;
                 FindObjectOfType<MultiButtonInteractionManager>().OnMultiButtonClick(false);
             }
         }

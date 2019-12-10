@@ -17,9 +17,14 @@ public class PuzzleBoxManager : MonoBehaviour {
     public GameObject hiddenLabyrinthMulti;
     public GameObject lockedLabyrinth;
     // Use this for initialization
-    void Start () {
-		
-	}
+    void Start () 
+    {
+        lockedSimon.SetActive(true);
+        lockedLabyrinth.SetActive(true);
+
+        hiddenSimonMulti.SetActive(false);
+        hiddenLabyrinthMulti.SetActive(false);
+    }
 	
 	// Update is called once per frame
 	void Update () {

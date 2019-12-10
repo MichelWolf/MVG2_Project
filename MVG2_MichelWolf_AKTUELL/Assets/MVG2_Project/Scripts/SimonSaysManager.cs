@@ -181,6 +181,9 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
             //Bleep(buttonsToPress[i]);
 
             yield return new WaitForSeconds(0.6f);
+            infoObjMR.material.color = Color.black;
+            yield return new WaitForSeconds(0.15f);
+
         }
 
         

@@ -58,6 +58,7 @@ public class LabyrinthManager : MonoBehaviourPunCallbacks, IPunObservable
         foreach (GameObject g in arrowButtons)
         {
             g.GetComponent<ArrowButton>().pressed = false;
+            g.GetComponent<ArrowButton>().GetComponent<MeshRenderer>().material.color = g.GetComponent<ArrowButton>().normalColor;
         }
     }
 

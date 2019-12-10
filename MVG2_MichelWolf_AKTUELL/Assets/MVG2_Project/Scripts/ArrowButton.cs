@@ -7,8 +7,11 @@ public class ArrowButton : MonoBehaviour {
 
     public direction dir;
     public bool pressed;
-	// Use this for initialization
-	void Start () {
+
+    public Color normalColor;
+    public Color highlightColor;
+    // Use this for initialization
+    void Start () {
 		
 	}
 	
@@ -24,6 +27,7 @@ public class ArrowButton : MonoBehaviour {
         if (other.gameObject.tag == "ControllerColliderL" || other.gameObject.tag == "ControllerColliderR")
         {
             pressed = true;
+            gameObject.GetComponent<MeshRenderer>().material.color = highlightColor;
             //controllerInside++;
             FindObjectOfType<LabyrinthManager>().HandleArrowButton(dir);
             
@@ -39,6 +43,7 @@ public class ArrowButton : MonoBehaviour {
             {
                 FindObjectOfType<LabyrinthManager>().StopPlayer(dir);
                 pressed = false;
+                gameObject.GetComponent<MeshRenderer>().material.color = normalColor;
             }
             Debug.Log("EXIT: MultiButton ");
         }

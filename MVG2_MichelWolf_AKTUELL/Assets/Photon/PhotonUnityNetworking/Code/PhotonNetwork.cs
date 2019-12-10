@@ -2896,12 +2896,20 @@ namespace Photon.Pun
         {
             if (PhotonNetwork.AutomaticallySyncScene)
             {
+                Debug.Log("AutoSync active");
                 SetLevelInPropsIfSynced(levelNumber);
+                Debug.Log("AutoSync done?");
             }
 
             PhotonNetwork.IsMessageQueueRunning = false;
+            Debug.Log("Messege q");
+
             loadingLevelAndPausedNetwork = true;
+            Debug.Log("paused ");
+
             _AsyncLevelLoadingOperation = SceneManager.LoadSceneAsync(levelNumber,LoadSceneMode.Single);
+            Debug.Log("end active");
+
         }
 
         /// <summary>This method wraps loading a level asynchronously and pausing network messages during the process.</summary>

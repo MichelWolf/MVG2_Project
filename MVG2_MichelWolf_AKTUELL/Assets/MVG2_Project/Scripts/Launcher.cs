@@ -6,6 +6,7 @@ using Photon.Pun;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.VR;
+using UnityEngine.SceneManagement;
 
 public class Launcher : MonoBehaviourPunCallbacks {
 
@@ -125,7 +126,8 @@ public class Launcher : MonoBehaviourPunCallbacks {
 
     public void StartGame()
     {
-        photonView.RPC("RPCLoadLevel", RpcTarget.MasterClient);
+        //photonView.RPC("RPCLoadLevel", RpcTarget.MasterClient);
+        photonView.RPC("RPCLoadLevelAll", RpcTarget.All);
     }
 
     #endregion
@@ -202,6 +204,12 @@ public class Launcher : MonoBehaviourPunCallbacks {
     {
         Debug.Log("MASTER RECIEVED RPC to Load level");
         PhotonNetwork.LoadLevel(1);
+    }
+
+    [PunRPC]
+    void RPCLoadLevelAll()
+    {
+        SceneManager.LoadScene(1);
     }
 
     #endregion

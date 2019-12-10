@@ -26,7 +26,7 @@ MonoBehaviour:
   PunLogging: 0
   EnableSupportLogger: 0
   RunInBackground: 1
-  StartInOfflineMode: 0
+  StartInOfflineMode: 1
   RpcList:
   - ClickRpc
   - DestroyRpc
@@ -50,5 +50,6 @@ MonoBehaviour:
   - RPCArrowButtonIn
   - RPCArrowButtonOut
   - RPCSetProgressBar
+  - RPCLoadLevelAll
   DisableAutoOpenWizard: 1
   ShowSettings: 1

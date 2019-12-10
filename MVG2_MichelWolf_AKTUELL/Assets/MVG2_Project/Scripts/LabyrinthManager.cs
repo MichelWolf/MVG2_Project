@@ -43,11 +43,11 @@ public class LabyrinthManager : MonoBehaviourPunCallbacks, IPunObservable
         }
         else if (dir == direction.left)
         {
-            moveDirection += new Vector3(1, 0, 0);
+            moveDirection += new Vector3(-1, 0, 0);
         }
         else if (dir == direction.right)
         {
-            moveDirection += new Vector3(-1, 0, 0);
+            moveDirection += new Vector3(1, 0, 0);
         }
     }
 
@@ -80,11 +80,11 @@ public class LabyrinthManager : MonoBehaviourPunCallbacks, IPunObservable
         }
         else if (dir == direction.left)
         {
-            moveDirection -= new Vector3(1, 0, 0);
+            moveDirection -= new Vector3(-1, 0, 0);
         }
         else if (dir == direction.right)
         {
-            moveDirection -= new Vector3(-1, 0, 0);
+            moveDirection -= new Vector3(1, 0, 0);
         }
     }
 

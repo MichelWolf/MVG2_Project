@@ -73,3 +73,13 @@
 [Reconstruction Engine] [2019-12-17 13:10:53] [LOG] CMD: Stop Process
 [Reconstruction Engine] [2019-12-17 13:10:54] [LOG] ViveStaticReconstruction Destruction
 
+[Reconstruction Engine] [2019-12-17 13:26:12] [LOG] Set DataSource:0
+[Reconstruction Engine] [2019-12-17 13:26:12] [LOG] Set not to use sensor device
+[Reconstruction Engine] [2019-12-17 13:26:41] [LOG] CMD: Stop Process
+[Reconstruction Engine] [2019-12-17 13:26:41] [LOG] ViveStaticReconstruction Destruction
+
+[Reconstruction Engine] [2019-12-17 13:29:00] [LOG] Set DataSource:0
+[Reconstruction Engine] [2019-12-17 13:29:00] [LOG] Set not to use sensor device
+[Reconstruction Engine] [2019-12-17 13:29:36] [LOG] CMD: Stop Process
+[Reconstruction Engine] [2019-12-17 13:29:37] [LOG] ViveStaticReconstruction Destruction
+

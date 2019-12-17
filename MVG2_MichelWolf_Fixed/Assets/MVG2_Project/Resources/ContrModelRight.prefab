@@ -40,6 +40,7 @@ GameObject:
   - component: {fileID: 4671719496932690}
   - component: {fileID: 114518840599383686}
   - component: {fileID: 114253430330831800}
+  - component: {fileID: 114844418589845844}
   m_Layer: 0
   m_Name: ContrModelRight
   m_TagString: Untagged
@@ -237,6 +238,17 @@ MonoBehaviour:
   viewIdField: 0
   InstantiationId: 0
   isRuntimeInstantiated: 0
+--- !u!114 &114844418589845844
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1482199658904726}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33bed366947f7224f801013c2588e1a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!135 &135928804046239864
 SphereCollider:
   m_ObjectHideFlags: 1

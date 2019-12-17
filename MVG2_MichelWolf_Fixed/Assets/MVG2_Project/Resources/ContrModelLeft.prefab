@@ -57,6 +57,7 @@ GameObject:
   - component: {fileID: 4835853169715146}
   - component: {fileID: 114850011233121804}
   - component: {fileID: 114806443890578688}
+  - component: {fileID: 114584513920072776}
   m_Layer: 0
   m_Name: ContrModelLeft
   m_TagString: Untagged
@@ -202,6 +203,17 @@ Rigidbody:
   m_Interpolate: 0
   m_Constraints: 0
   m_CollisionDetection: 0
+--- !u!114 &114584513920072776
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1722666765431146}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 33bed366947f7224f801013c2588e1a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!114 &114806443890578688
 MonoBehaviour:
   m_ObjectHideFlags: 1

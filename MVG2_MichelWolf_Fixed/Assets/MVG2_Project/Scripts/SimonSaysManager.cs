@@ -181,7 +181,7 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
             //Bleep(buttonsToPress[i]);
 
             yield return new WaitForSeconds(0.6f);
-            infoObjMR.material.color = Color.black;
+            photonView.RPC("RPCSetSimonBlack", RpcTarget.All);
             yield return new WaitForSeconds(0.15f);
 
         }
@@ -226,6 +226,12 @@ public class SimonSaysManager : MonoBehaviourPunCallbacks, IPunObservable
         //InfoImage.color = gameButtons[index].gameObject.GetComponent<Image>().color;
         infoObjMR.material.color = gameButtons[index].gameObject.GetComponent<SimonButton>().normalColor;
         this.gameObject.GetComponent<AudioSource>().PlayOneShot(buttonSound);
+    }
+
+    [PunRPC]
+    void RPCSetSimonBlack()
+    {
+        infoObjMR.material.color = Color.black;
     }
 
     void NextRound()

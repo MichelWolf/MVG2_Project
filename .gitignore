@@ -35,11 +35,11 @@ sysinfo.txt
 *.apk
 *.unitypackage
 
-MVG2_MichelWolf_AKTUELL/Assets/ViveSR/Plugins/cudnn64_7.dll
-MVG2_MichelWolf_AKTUELL/Assets/ViveSR/Plugins/cudnn64_7.dll.meta
-MVG2_MichelWolf_AKTUELL/Assets/ViveSR/Plugins/cufft64_80.dll
-MVG2_MichelWolf_AKTUELL/Assets/ViveSR/Plugins/cufft64_80.dll.meta
-MVG2_MichelWolf_AKTUELL/Assets/ViveSR/Plugins/libmxnet.dll
-MVG2_MichelWolf_AKTUELL/Assets/ViveSR/Plugins/libmxnet.dll.meta
-MVG2_MichelWolf_AKTUELL/Assets/ViveSR/Plugins/sr_opencv_world342.dll
-MVG2_MichelWolf_AKTUELL/Assets/ViveSR/Plugins/sr_opencv_world342.dll.meta
+MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/cudnn64_7.dll
+MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/cudnn64_7.dll.meta
+MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/cufft64_80.dll
+MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/cufft64_80.dll.meta
+MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/libmxnet.dll
+MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/libmxnet.dll.meta
+MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/sr_opencv_world342.dll
+MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/sr_opencv_world342.dll.meta

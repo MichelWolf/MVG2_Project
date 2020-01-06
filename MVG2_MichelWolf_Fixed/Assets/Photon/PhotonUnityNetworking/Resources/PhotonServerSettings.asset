@@ -52,5 +52,7 @@ MonoBehaviour:
   - RPCStartSimonSaysCoroutine
   - RPCSuccessMultiButton
   - RPCSetSimonBlack
+  - RPCPlayLabyAudio
+  - RPCLabyrinthSuccess
   DisableAutoOpenWizard: 1
   ShowSettings: 1

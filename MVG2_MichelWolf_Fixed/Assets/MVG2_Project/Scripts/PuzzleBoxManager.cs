@@ -56,7 +56,6 @@ public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
     {
         SimonSuccess = true;
         hiddenSimonMulti.SetActive(true);
-        lockedSimon.SetActive(false);
         CheckSuccess();
     }
 
@@ -70,7 +69,6 @@ public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
     {
         LabyrinthSuccess = true;
         hiddenLabyrinthMulti.SetActive(true);
-        lockedLabyrinth.SetActive(false);
         CheckSuccess();
     }
 

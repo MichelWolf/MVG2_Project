@@ -19,7 +19,7 @@ public class LabyrinthEnd : MonoBehaviour {
 
         if (other.gameObject.transform.parent.tag == "LabyrinthPlayer")
         {
-            FindObjectOfType<PuzzleBoxManager>().SetLabyrinthSuccess();
+            FindObjectOfType<LabyrinthManager>().LabyrinthSuccess();
         }
     }
 }

@@ -30,14 +30,20 @@ public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
     private GameObject l;
     private GameObject r;
 
+    public AudioClip finishedPuzzleClip;
+    public GameObject finishedText;
+
     void Start () 
     {
+        FindObjectOfType<MultiButtonInteractionManager>().numberOfMultiButtons = FindObjectsOfType<MultiButton>().Length;
         lockedSimon.SetActive(true);
         lockedLabyrinth.SetActive(true);
 
         hiddenSimonMulti.SetActive(false);
         hiddenLabyrinthMulti.SetActive(false);
-        
+
+        finishedText.SetActive(false);
+
         if(PhotonNetwork.IsConnected)
         {
             l = PhotonNetwork.Instantiate("ContrModelLeft", ctrlLeftParent.transform.position, ctrlLeftParent.transform.rotation);
@@ -82,7 +88,15 @@ public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
 
     public void FinishPuzzleBox()
     {
+        photonView.RPC("RPCFinishedPuzzle", RpcTarget.All);
+    }
+
+    [PunRPC]
+    void RPCFinishedPuzzle()
+    {
         Debug.Log("Puzzlebox vollständig gelöst!");
+        GetComponent<AudioSource>().PlayOneShot(finishedPuzzleClip);
+        finishedText.SetActive(true);
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)

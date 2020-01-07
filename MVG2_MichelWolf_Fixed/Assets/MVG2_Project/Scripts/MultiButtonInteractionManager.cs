@@ -13,9 +13,18 @@ public class MultiButtonInteractionManager : MonoBehaviourPunCallbacks, IPunObse
     public int activatedButtons;
     public bool multiButtonsDone = false;
 
+    public Color deactivatedColor;
+    public Color activatedColor;
+
+    public GameObject[] activationLights;
+
     // Use this for initialization
     void Start () {
-        numberOfMultiButtons = FindObjectsOfType<MultiButton>().Length;
+        //numberOfMultiButtons = FindObjectsOfType<MultiButton>().Length;
+        foreach (GameObject g in activationLights)
+        {
+            g.GetComponent<MeshRenderer>().material.color = deactivatedColor;
+        }
 	}
 	
 	// Update is called once per frame
@@ -43,6 +52,21 @@ public class MultiButtonInteractionManager : MonoBehaviourPunCallbacks, IPunObse
         else
         {
             activatedButtons--;
+        }
+        photonView.RPC("RPCSetMultiLight", RpcTarget.All);
+
+    }
+
+    [PunRPC]
+    void RPCSetMultiLight()
+    {
+        for (int i = 0; i < activatedButtons; i++)
+        {
+            activationLights[i].GetComponent<MeshRenderer>().material.color = activatedColor;
+        }
+        for (int i = activatedButtons; i < numberOfMultiButtons; i++)
+        {
+            activationLights[i].GetComponent<MeshRenderer>().material.color = deactivatedColor;
         }
     }
 

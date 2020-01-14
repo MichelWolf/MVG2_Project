@@ -39,6 +39,7 @@ public class Launcher : MonoBehaviourPunCallbacks {
     private GameObject playerNames;
 
     public GameObject toggleTutorial;
+    public GameObject toggleAR;
 
     #endregion
 
@@ -137,6 +138,11 @@ public class Launcher : MonoBehaviourPunCallbacks {
         //photonView.RPC("RPCToggleTutorial", RpcTarget.Others);
     }
 
+    public void ToggleAR()
+    {
+        photonView.RPC("RPCToggleAR", RpcTarget.All);
+    }
+
     #endregion
 
 
@@ -180,12 +186,14 @@ public class Launcher : MonoBehaviourPunCallbacks {
         if(PhotonNetwork.IsMasterClient)
         {
             toggleTutorial.SetActive(true);
+            toggleAR.SetActive(true);
         }
         else
         {
             toggleTutorial.SetActive(false);
+            toggleAR.SetActive(true);
         }
-        
+
         ShowPlayerNamesInLobby();
         Debug.Log("PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.");
     }
@@ -233,6 +241,12 @@ public class Launcher : MonoBehaviourPunCallbacks {
         {
             SceneManager.LoadScene(2);
         }
+    }
+
+    [PunRPC]
+    void RPCToggleAR()
+    {
+        FindObjectOfType<LevelSettings>().useAR = toggleAR.GetComponent<Toggle>().isOn;
     }
 
     [PunRPC]

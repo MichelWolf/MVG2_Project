@@ -43,6 +43,8 @@ public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
 
     internal float startTime;
 
+    public GameObject ViveSR;
+
     void Start () 
     {
         FindObjectOfType<MultiButtonInteractionManager>().numberOfMultiButtons = FindObjectsOfType<MultiButton>().Length;
@@ -71,6 +73,15 @@ public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
             r.transform.SetParent(ctrlRightParent.transform);
         }
         startTime = Time.time;
+
+        if(FindObjectOfType<LevelSettings>().useAR)
+        {
+            ViveSR.SetActive(true);
+        }
+        else
+        {
+            ViveSR.SetActive(false);
+        }
     }
 	
 	// Update is called once per frame

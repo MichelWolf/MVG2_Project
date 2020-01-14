@@ -38,6 +38,8 @@ public class Launcher : MonoBehaviourPunCallbacks {
     [SerializeField]
     private GameObject playerNames;
 
+    public GameObject toggleTutorial;
+
     #endregion
 
     #region Private Fields
@@ -130,6 +132,11 @@ public class Launcher : MonoBehaviourPunCallbacks {
         photonView.RPC("RPCLoadLevelAll", RpcTarget.All);
     }
 
+    public void ToggleTutorial()
+    {
+        photonView.RPC("RPCToggleTutorial", RpcTarget.Others);
+    }
+
     #endregion
 
 
@@ -209,7 +216,20 @@ public class Launcher : MonoBehaviourPunCallbacks {
     [PunRPC]
     void RPCLoadLevelAll()
     {
-        SceneManager.LoadScene(1);
+        if(toggleTutorial.GetComponent<Toggle>().isOn)
+        {
+            SceneManager.LoadScene(1);
+        }
+        else
+        {
+            SceneManager.LoadScene(2);
+        }
+    }
+
+    [PunRPC]
+    void RPCToggleTutorial()
+    {
+        toggleTutorial.GetComponent<Toggle>().isOn = !toggleTutorial.GetComponent<Toggle>().isOn;
     }
 
     #endregion

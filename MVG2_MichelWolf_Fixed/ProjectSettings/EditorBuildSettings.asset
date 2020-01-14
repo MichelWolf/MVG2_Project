@@ -9,5 +9,8 @@ EditorBuildSettings:
     path: Assets/MVG2_Project/Scenes/Lobby.unity
     guid: 83e4f2c7491c41343bc97b901121f24b
   - enabled: 1
+    path: Assets/MVG2_Project/Scenes/Tutorial.unity
+    guid: e59383a1e99bb7946b5c47081c172375
+  - enabled: 1
     path: Assets/MVG2_Project/Scenes/Simon.unity
     guid: f0d3986bbff66a642a1e30ab45e69808

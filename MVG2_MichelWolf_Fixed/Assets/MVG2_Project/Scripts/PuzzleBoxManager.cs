@@ -3,8 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using Photon.Pun;
 using Photon.Realtime;
+using TMPro;
 
 public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
+
+    public bool tutorialMode = false;
+    public GameObject TutorialSimonCanvas;
+    public GameObject TutorialMultiCanvas;
+    public GameObject TutorialLabyCanvas;
+    public GameObject LoadLevelButton;
 
     [Header("Simon Says")]
     public bool SimonSuccess;
@@ -38,9 +45,18 @@ public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
         FindObjectOfType<MultiButtonInteractionManager>().numberOfMultiButtons = FindObjectsOfType<MultiButton>().Length;
         lockedSimon.SetActive(true);
         lockedLabyrinth.SetActive(true);
-
-        hiddenSimonMulti.SetActive(false);
-        hiddenLabyrinthMulti.SetActive(false);
+        if (hiddenSimonMulti != null)
+        {
+            hiddenSimonMulti.SetActive(false);
+        }
+        if (hiddenLabyrinthMulti != null)
+        {
+            hiddenLabyrinthMulti.SetActive(false);
+        }
+        if(LoadLevelButton != null)
+        {
+            LoadLevelButton.SetActive(false);
+        }
 
         finishedText.SetActive(false);
 
@@ -61,20 +77,43 @@ public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
     public void SetSimonSuccess()
     {
         SimonSuccess = true;
-        hiddenSimonMulti.SetActive(true);
+        if(hiddenLabyrinthMulti != null)
+        {
+            hiddenSimonMulti.SetActive(true);
+        }
+        if(tutorialMode)
+        {
+            TutorialSimonCanvas.GetComponentInChildren<TextMeshProUGUI>().text = "NICE!";
+            TutorialSimonCanvas.GetComponentInChildren<TextMeshProUGUI>().color = Color.green;
+        }
         CheckSuccess();
     }
 
     public void SetMultiSuccess()
     {
         MultiSuccess = true;
+        if (tutorialMode)
+        {
+            TutorialMultiCanvas.GetComponentInChildren<TextMeshProUGUI>().text = "GOOD JOB!";
+            TutorialMultiCanvas.GetComponentInChildren<TextMeshProUGUI>().color = Color.green;
+
+        }
         CheckSuccess();
     }
 
     public void SetLabyrinthSuccess()
     {
         LabyrinthSuccess = true;
-        hiddenLabyrinthMulti.SetActive(true);
+        if (hiddenLabyrinthMulti != null)
+        {
+            hiddenLabyrinthMulti.SetActive(true);
+        }
+        if (tutorialMode)
+        {
+            TutorialLabyCanvas.GetComponentInChildren<TextMeshProUGUI>().text = "EXCELLENT!";
+            TutorialLabyCanvas.GetComponentInChildren<TextMeshProUGUI>().color = Color.green;
+
+        }
         CheckSuccess();
     }
 
@@ -97,6 +136,11 @@ public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
         Debug.Log("Puzzlebox vollständig gelöst!");
         GetComponent<AudioSource>().PlayOneShot(finishedPuzzleClip);
         finishedText.SetActive(true);
+        if (tutorialMode)
+        {
+            LoadLevelButton.SetActive(true);
+            finishedText.GetComponentInChildren<TextMeshProUGUI>().text += "\nPress red ball to load the level";
+        }
     }
 
     public void OnPhotonSerializeView(PhotonStream stream, PhotonMessageInfo info)

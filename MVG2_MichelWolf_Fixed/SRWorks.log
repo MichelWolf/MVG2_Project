@@ -6699,3 +6699,988 @@
 [Vive SRWorks] [2020-01-14 15:03:28] [LOG] ViveSR_Stop() end
 [Vive SRWorks] [2020-01-14 15:03:40] [LOG] UnitySetGraphicsDevice:: D3D11
 [Vive SRWorks] [2020-01-14 15:03:41] [LOG] UnitySetGraphicsDevice:: D3D11
+[Vive SRWorks] [2020-01-14 15:15:26] [LOG] ViveSR_Initial() success
+[Vive SRWorks] [2020-01-14 15:15:26] [LOG] SRWorks Version 0.8.0.2
+[Vive SRWorks] [2020-01-14 15:15:26] [LOG] OS : Windows 8+
+[Vive SRWorks] [2020-01-14 15:15:26] [LOG] CPU GetMemory Total : 16322.000000
+[Vive SRWorks] [2020-01-14 15:15:26] [LOG] CPU GetMemory InUse : 5781.000000
+[Vive SRWorks] [2020-01-14 15:15:26] [LOG] GPU : GeForce GTX 1080
+[Vive SRWorks] [2020-01-14 15:15:26] [LOG] GPU driver : 43648
+[Vive SRWorks] [2020-01-14 15:15:26] [LOG] GPU memory usage : 2408.746094
+[Vive SRWorks] [2020-01-14 15:15:26] [LOG] GPU memory loading: 14
+[Vive SRWorks] [2020-01-14 15:15:26] [LOG] ViveSR_CreateModule() start
+[JSON] [2020-01-14 15:15:26] [LOG] found steam install path
+[JSON] [2020-01-14 15:15:26] [LOG] using device : LHR-9EE4FA42
+[JSON] [2020-01-14 15:15:26] [LOG] using system : lighthouse
+[JSON] [2020-01-14 15:15:27] [LOG] found device config file : C:\Program Files (x86)\Steam\config\lighthouse\LHR-9EE4FA42\config.json
+[JSON] [2020-01-14 15:15:27] [LOG] Cali_V2D_00000
+[JSON] [2020-01-14 15:15:27] [LOG] MIE_GCP_00000
+[JSON] [2020-01-14 15:15:27] [LOG] found steam install path
+[JSON] [2020-01-14 15:15:27] [LOG] using device : LHR-9EE4FA42
+[JSON] [2020-01-14 15:15:27] [LOG] using system : lighthouse
+[JSON] [2020-01-14 15:15:27] [LOG] found device config file : C:\Program Files (x86)\Steam\config\lighthouse\LHR-9EE4FA42\config.json
+[JSON] [2020-01-14 15:15:27] [LOG] Cali_V2D_00000
+[JSON] [2020-01-14 15:15:27] [LOG] MIE_GCP_00000
+[ENGINE_SEETHROUGH_0] [2020-01-14 15:15:27] [LOG] ExternalCommandModule_link_to_SeeThrough_mode(first)
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] SeeThroughModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] CM_MT1_MID0_00000
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] ViveSR_CreateModule() start
+[ENGINE_DEPTH_2] [2020-01-14 15:15:27] [LOG] ExternalCommandModule_link_to_Depth_mode(first)
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] CM_MT4_MID2_00000
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] ViveSR_CreateModule() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:15:27] [LOG] ExternalCommandModule_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] CM_MT7_MID4_00000
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] ViveSR_CreateModule() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:15:27] [LOG] ExternalCommandModule_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] ReconsModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] CM_MT5_MID6_00000
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] SM0ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] SM0ViveSR_StartModule() check pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:27] [LOG] initialization mode 2-2
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:27] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:27] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:27] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:27] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:27] [LOG] initialization mode end2-2
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] SM0ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:15:27] [LOG] SM0ViveSR_StartModule() initial pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:27] [LOG] TurnOn
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:28] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:28] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:28] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:28] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:28] [LOG] TurnOn end
+[Vive SRWorks] [2020-01-14 15:15:28] [LOG] SM0ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:15:28] [LOG] SM0_00000
+[Vive SRWorks] [2020-01-14 15:15:28] [LOG] SM0ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:15:28] [LOG] SM2ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:15:28] [LOG] SM2ViveSR_StartModule() check pass
+[ENGINE_DEPTH_2] [2020-01-14 15:15:28] [LOG] init_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:15:28] [LOG] initialization mode 0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:15:28] [LOG] initialization mode end0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:15:28] [LOG] f-> x:274.056610 y:274.056610
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:15:28] [LOG] m-> x:320.000000 y:240.000000
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:15:28] [LOG] size->640:480
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:15:28] [LOG] DepthWorldMinMax->0.200000:10.000000
+[Vive SRWorks] [2020-01-14 15:15:28] [LOG] SM2ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:15:28] [LOG] SM2ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:15:28] [LOG] SM2ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:15:28] [LOG] SM2_00000
+[Vive SRWorks] [2020-01-14 15:15:28] [LOG] SM2ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:15:28] [LOG] SM4ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:15:28] [LOG] SM4ViveSR_StartModule() check pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:15:28] [LOG] init_S
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:15:28] [LOG] model path : D:/GITHUB_KRAMS/MVG2_Project/MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/model/sceneSemantic/
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:15:28] [LOG] stage 1 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:15:28] [LOG] stage 2 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:15:29] [LOG] stage 3 done
+[ENGINE_AI_SCENE_4] [2020-01-14 15:15:29] [LOG] status : 257
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] SM4ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] SM4ViveSR_StartModule() initial pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:15:29] [LOG] Memery alocated
+[ENGINE_AI_SCENE_4] [2020-01-14 15:15:29] [LOG] status : 273
+[ENGINE_AI_SCENE_4] [2020-01-14 15:15:29] [LOG] status : 273
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] SM4ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] SM4_00000
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] SM4ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] SM6ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] SM6ViveSR_StartModule() check pass
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] SM6ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] SM6ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] SM6ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] SM6_00000
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] SM6ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] ViveSR_ModuleLink() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:15:29] [LOG] Depth_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] LM2-6_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] ViveSR_ModuleLink() end
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] ViveSR_ModuleLink() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:15:29] [LOG] RigidReconstruction_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] LM6-4_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:15:29] [LOG] ViveSR_ModuleLink() end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:37] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:46] [LOG] module alive
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] CLM_M0_M2_mode-1
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() start
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase1
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-0_start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:54] [LOG] TurnOff
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:54] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:54] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:54] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:54] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:54] [LOG] TurnOff end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:54] [LOG] ~Undistortion table
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:15:54] [LOG] ~Undistortion table
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-0_end
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-1_start
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-1_end
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-2_start
+[ENGINE_DEPTH_2] [2020-01-14 15:15:54] [LOG] release_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:15:54] [LOG] TurnOff
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:15:54] [LOG] TurnOff end
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:15:54] [LOG] Vive Depth Spatial Destruction
+
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-2_end
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-3_start
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-3_end
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-4_start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:15:54] [LOG] release_S
+[ENGINE_AI_SCENE_4] [2020-01-14 15:15:54] [LOG] status : 1118481
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-4_end
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-5_start
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-5_end
+[Vive SRWorks] [2020-01-14 15:15:54] [LOG] ViveSR_Stop() phase2-6_start
+[Vive SRWorks] [2020-01-14 15:15:55] [LOG] ViveSR_Stop() phase2-6_end
+[Vive SRWorks] [2020-01-14 15:15:55] [LOG] ViveSR_Stop() phase2-7_start
+[Vive SRWorks] [2020-01-14 15:15:55] [LOG] ViveSR_Stop() phase2-7_end
+[Vive SRWorks] [2020-01-14 15:15:55] [LOG] ViveSR_Stop() phase3
+[Vive SRWorks] [2020-01-14 15:15:55] [LOG] STP_WORKs_ prepare release memory
+[Vive SRWorks] [2020-01-14 15:15:55] [LOG] ViveSR_Stop() end
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] ViveSR_Initial() success
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] SRWorks Version 0.8.0.2
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] OS : Windows 8+
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] CPU GetMemory Total : 16322.000000
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] CPU GetMemory InUse : 7378.000000
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] GPU : GeForce GTX 1080
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] GPU driver : 43648
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] GPU memory usage : 3330.097656
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] GPU memory loading: 14
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] ViveSR_CreateModule() start
+[ENGINE_SEETHROUGH_0] [2020-01-14 15:16:09] [LOG] ExternalCommandModule_link_to_SeeThrough_mode(first)
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] SeeThroughModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] CM_MT1_MID0_00000
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] ViveSR_CreateModule() start
+[ENGINE_DEPTH_2] [2020-01-14 15:16:09] [LOG] ExternalCommandModule_link_to_Depth_mode(first)
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] CM_MT4_MID2_00000
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] ViveSR_CreateModule() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:16:09] [LOG] ExternalCommandModule_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] CM_MT7_MID4_00000
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] ViveSR_CreateModule() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:16:09] [LOG] ExternalCommandModule_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] ReconsModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] CM_MT5_MID6_00000
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] SM0ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] SM0ViveSR_StartModule() check pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:09] [LOG] initialization mode 2-2
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:09] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:09] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:09] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:09] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:09] [LOG] initialization mode end2-2
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] SM0ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:16:09] [LOG] SM0ViveSR_StartModule() initial pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:09] [LOG] TurnOn
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:09] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:10] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:10] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:10] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:10] [LOG] TurnOn end
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM0ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM0_00000
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM0ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM2ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM2ViveSR_StartModule() check pass
+[ENGINE_DEPTH_2] [2020-01-14 15:16:10] [LOG] init_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:16:10] [LOG] initialization mode 0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:16:10] [LOG] initialization mode end0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:16:10] [LOG] f-> x:274.056610 y:274.056610
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:16:10] [LOG] m-> x:320.000000 y:240.000000
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:16:10] [LOG] size->640:480
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:16:10] [LOG] DepthWorldMinMax->0.200000:10.000000
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM2ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM2ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM2ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM2_00000
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM2ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM4ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM4ViveSR_StartModule() check pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:16:10] [LOG] init_S
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:16:10] [LOG] model path : D:/GITHUB_KRAMS/MVG2_Project/MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/model/sceneSemantic/
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:16:10] [LOG] stage 1 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:16:10] [LOG] stage 2 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:16:10] [LOG] stage 3 done
+[ENGINE_AI_SCENE_4] [2020-01-14 15:16:10] [LOG] status : 257
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM4ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM4ViveSR_StartModule() initial pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:16:10] [LOG] Memery alocated
+[ENGINE_AI_SCENE_4] [2020-01-14 15:16:10] [LOG] status : 273
+[ENGINE_AI_SCENE_4] [2020-01-14 15:16:10] [LOG] status : 273
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM4ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM4_00000
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM4ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM6ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM6ViveSR_StartModule() check pass
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM6ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM6ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM6ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM6_00000
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] SM6ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] ViveSR_ModuleLink() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:16:10] [LOG] Depth_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] LM2-6_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] ViveSR_ModuleLink() end
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] ViveSR_ModuleLink() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:16:10] [LOG] RigidReconstruction_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] LM6-4_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:16:10] [LOG] ViveSR_ModuleLink() end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:11] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:20] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:29] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:38] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:48] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:16:57] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:06] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:15] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:24] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:33] [LOG] module alive
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] CLM_M0_M2_mode-1
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() start
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase1
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-0_start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:38] [LOG] TurnOff
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:38] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:38] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:38] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:38] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:38] [LOG] TurnOff end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:38] [LOG] ~Undistortion table
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:38] [LOG] ~Undistortion table
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-0_end
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-1_start
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-1_end
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-2_start
+[ENGINE_DEPTH_2] [2020-01-14 15:17:38] [LOG] release_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:17:38] [LOG] TurnOff
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:17:38] [LOG] TurnOff end
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:17:38] [LOG] Vive Depth Spatial Destruction
+
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-2_end
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-3_start
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-3_end
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-4_start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:17:38] [LOG] release_S
+[ENGINE_AI_SCENE_4] [2020-01-14 15:17:38] [LOG] status : 1118481
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-4_end
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-5_start
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-5_end
+[Vive SRWorks] [2020-01-14 15:17:38] [LOG] ViveSR_Stop() phase2-6_start
+[Vive SRWorks] [2020-01-14 15:17:39] [LOG] ViveSR_Stop() phase2-6_end
+[Vive SRWorks] [2020-01-14 15:17:39] [LOG] ViveSR_Stop() phase2-7_start
+[Vive SRWorks] [2020-01-14 15:17:39] [LOG] ViveSR_Stop() phase2-7_end
+[Vive SRWorks] [2020-01-14 15:17:39] [LOG] ViveSR_Stop() phase3
+[Vive SRWorks] [2020-01-14 15:17:39] [LOG] STP_WORKs_ prepare release memory
+[Vive SRWorks] [2020-01-14 15:17:39] [LOG] ViveSR_Stop() end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_Initial() success
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SRWorks Version 0.8.0.2
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] OS : Windows 8+
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] CPU GetMemory Total : 16322.000000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] CPU GetMemory InUse : 8306.000000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] GPU : GeForce GTX 1080
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] GPU driver : 43648
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] GPU memory usage : 3361.433594
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] GPU memory loading: 15
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_CreateModule() start
+[ENGINE_SEETHROUGH_0] [2020-01-14 15:17:59] [LOG] ExternalCommandModule_link_to_SeeThrough_mode(first)
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SeeThroughModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] CM_MT1_MID0_00000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_CreateModule() start
+[ENGINE_DEPTH_2] [2020-01-14 15:17:59] [LOG] ExternalCommandModule_link_to_Depth_mode(first)
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] CM_MT4_MID2_00000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_CreateModule() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:17:59] [LOG] ExternalCommandModule_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] CM_MT7_MID4_00000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_CreateModule() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:17:59] [LOG] ExternalCommandModule_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ReconsModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] CM_MT5_MID6_00000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM0ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM0ViveSR_StartModule() check pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:59] [LOG] initialization mode 2-2
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:59] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:59] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:59] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:59] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:59] [LOG] initialization mode end2-2
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM0ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM0ViveSR_StartModule() initial pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:59] [LOG] TurnOn
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:59] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:59] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:59] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:59] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:17:59] [LOG] TurnOn end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM0ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM0_00000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM0ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM2ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM2ViveSR_StartModule() check pass
+[ENGINE_DEPTH_2] [2020-01-14 15:17:59] [LOG] init_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:17:59] [LOG] initialization mode 0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:17:59] [LOG] initialization mode end0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:17:59] [LOG] f-> x:274.056610 y:274.056610
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:17:59] [LOG] m-> x:320.000000 y:240.000000
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:17:59] [LOG] size->640:480
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:17:59] [LOG] DepthWorldMinMax->0.200000:10.000000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM2ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM2ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM2ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM2_00000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM2ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM4ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM4ViveSR_StartModule() check pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:17:59] [LOG] init_S
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:17:59] [LOG] model path : D:/GITHUB_KRAMS/MVG2_Project/MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/model/sceneSemantic/
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:17:59] [LOG] stage 1 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:17:59] [LOG] stage 2 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:17:59] [LOG] stage 3 done
+[ENGINE_AI_SCENE_4] [2020-01-14 15:17:59] [LOG] status : 257
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM4ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM4ViveSR_StartModule() initial pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:17:59] [LOG] Memery alocated
+[ENGINE_AI_SCENE_4] [2020-01-14 15:17:59] [LOG] status : 273
+[ENGINE_AI_SCENE_4] [2020-01-14 15:17:59] [LOG] status : 273
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM4ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM4_00000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM4ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM6ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM6ViveSR_StartModule() check pass
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM6ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM6ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM6ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM6_00000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] SM6ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_ModuleLink() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:17:59] [LOG] Depth_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] LM2-6_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_ModuleLink() end
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_ModuleLink() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:17:59] [LOG] RigidReconstruction_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] LM6-4_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:17:59] [LOG] ViveSR_ModuleLink() end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:02] [LOG] module alive
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] CLM_M0_M2_mode-1
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() start
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase1
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-0_start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:06] [LOG] TurnOff
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:06] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:06] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:06] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:06] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:06] [LOG] TurnOff end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:06] [LOG] ~Undistortion table
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:06] [LOG] ~Undistortion table
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-0_end
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-1_start
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-1_end
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-2_start
+[ENGINE_DEPTH_2] [2020-01-14 15:18:06] [LOG] release_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:18:06] [LOG] TurnOff
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:18:06] [LOG] TurnOff end
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:18:06] [LOG] Vive Depth Spatial Destruction
+
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-2_end
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-3_start
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-3_end
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-4_start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:18:06] [LOG] release_S
+[ENGINE_AI_SCENE_4] [2020-01-14 15:18:06] [LOG] status : 1118481
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-4_end
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-5_start
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-5_end
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-6_start
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-6_end
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-7_start
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase2-7_end
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() phase3
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] STP_WORKs_ prepare release memory
+[Vive SRWorks] [2020-01-14 15:18:06] [LOG] ViveSR_Stop() end
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] ViveSR_Initial() success
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] SRWorks Version 0.8.0.2
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] OS : Windows 8+
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] CPU GetMemory Total : 16322.000000
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] CPU GetMemory InUse : 8320.000000
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] GPU : GeForce GTX 1080
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] GPU driver : 43648
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] GPU memory usage : 3365.917969
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] GPU memory loading: 16
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] ViveSR_CreateModule() start
+[ENGINE_SEETHROUGH_0] [2020-01-14 15:18:41] [LOG] ExternalCommandModule_link_to_SeeThrough_mode(first)
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] SeeThroughModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] CM_MT1_MID0_00000
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] ViveSR_CreateModule() start
+[ENGINE_DEPTH_2] [2020-01-14 15:18:41] [LOG] ExternalCommandModule_link_to_Depth_mode(first)
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] CM_MT4_MID2_00000
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] ViveSR_CreateModule() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:18:41] [LOG] ExternalCommandModule_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] CM_MT7_MID4_00000
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] ViveSR_CreateModule() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:18:41] [LOG] ExternalCommandModule_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] ReconsModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] CM_MT5_MID6_00000
+[Vive SRWorks] [2020-01-14 15:18:41] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM0ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM0ViveSR_StartModule() check pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:42] [LOG] initialization mode 2-2
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:42] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:42] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:42] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:42] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:42] [LOG] initialization mode end2-2
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM0ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM0ViveSR_StartModule() initial pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:42] [LOG] TurnOn
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:42] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:42] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:42] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:42] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:42] [LOG] TurnOn end
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM0ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM0_00000
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM0ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM2ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM2ViveSR_StartModule() check pass
+[ENGINE_DEPTH_2] [2020-01-14 15:18:42] [LOG] init_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:18:42] [LOG] initialization mode 0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:18:42] [LOG] initialization mode end0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:18:42] [LOG] f-> x:274.056610 y:274.056610
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:18:42] [LOG] m-> x:320.000000 y:240.000000
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:18:42] [LOG] size->640:480
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:18:42] [LOG] DepthWorldMinMax->0.200000:10.000000
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM2ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM2ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM2ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM2_00000
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM2ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM4ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM4ViveSR_StartModule() check pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:18:42] [LOG] init_S
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:18:42] [LOG] model path : D:/GITHUB_KRAMS/MVG2_Project/MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/model/sceneSemantic/
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:18:42] [LOG] stage 1 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:18:42] [LOG] stage 2 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:18:42] [LOG] stage 3 done
+[ENGINE_AI_SCENE_4] [2020-01-14 15:18:42] [LOG] status : 257
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM4ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM4ViveSR_StartModule() initial pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:18:42] [LOG] Memery alocated
+[ENGINE_AI_SCENE_4] [2020-01-14 15:18:42] [LOG] status : 273
+[ENGINE_AI_SCENE_4] [2020-01-14 15:18:42] [LOG] status : 273
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM4ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM4_00000
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM4ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM6ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM6ViveSR_StartModule() check pass
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM6ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM6ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM6ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM6_00000
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] SM6ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] ViveSR_ModuleLink() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:18:42] [LOG] Depth_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] LM2-6_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] ViveSR_ModuleLink() end
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] ViveSR_ModuleLink() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:18:42] [LOG] RigidReconstruction_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] LM6-4_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:18:42] [LOG] ViveSR_ModuleLink() end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:47] [LOG] module alive
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] CLM_M0_M2_mode-1
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() start
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase1
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-0_start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:49] [LOG] TurnOff
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:49] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:49] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:49] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:49] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:49] [LOG] TurnOff end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:49] [LOG] ~Undistortion table
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:18:49] [LOG] ~Undistortion table
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-0_end
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-1_start
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-1_end
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-2_start
+[ENGINE_DEPTH_2] [2020-01-14 15:18:49] [LOG] release_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:18:49] [LOG] TurnOff
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:18:49] [LOG] TurnOff end
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:18:49] [LOG] Vive Depth Spatial Destruction
+
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-2_end
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-3_start
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-3_end
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-4_start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:18:49] [LOG] release_S
+[ENGINE_AI_SCENE_4] [2020-01-14 15:18:49] [LOG] status : 1118481
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-4_end
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-5_start
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-5_end
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-6_start
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-6_end
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-7_start
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase2-7_end
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() phase3
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] STP_WORKs_ prepare release memory
+[Vive SRWorks] [2020-01-14 15:18:49] [LOG] ViveSR_Stop() end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_Initial() success
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SRWorks Version 0.8.0.2
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] OS : Windows 8+
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] CPU GetMemory Total : 16322.000000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] CPU GetMemory InUse : 8326.000000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] GPU : GeForce GTX 1080
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] GPU driver : 43648
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] GPU memory usage : 3044.308594
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] GPU memory loading: 14
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_CreateModule() start
+[ENGINE_SEETHROUGH_0] [2020-01-14 15:19:11] [LOG] ExternalCommandModule_link_to_SeeThrough_mode(first)
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SeeThroughModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] CM_MT1_MID0_00000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_CreateModule() start
+[ENGINE_DEPTH_2] [2020-01-14 15:19:11] [LOG] ExternalCommandModule_link_to_Depth_mode(first)
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] CM_MT4_MID2_00000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_CreateModule() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:19:11] [LOG] ExternalCommandModule_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] CM_MT7_MID4_00000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_CreateModule() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:19:11] [LOG] ExternalCommandModule_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ReconsModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] CM_MT5_MID6_00000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM0ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM0ViveSR_StartModule() check pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:11] [LOG] initialization mode 2-2
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:11] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:11] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:11] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:11] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:11] [LOG] initialization mode end2-2
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM0ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM0ViveSR_StartModule() initial pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:11] [LOG] TurnOn
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:11] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:11] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:11] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:11] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:11] [LOG] TurnOn end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM0ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM0_00000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM0ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM2ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM2ViveSR_StartModule() check pass
+[ENGINE_DEPTH_2] [2020-01-14 15:19:11] [LOG] init_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:19:11] [LOG] initialization mode 0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:19:11] [LOG] initialization mode end0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:19:11] [LOG] f-> x:274.056610 y:274.056610
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:19:11] [LOG] m-> x:320.000000 y:240.000000
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:19:11] [LOG] size->640:480
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:19:11] [LOG] DepthWorldMinMax->0.200000:10.000000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM2ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM2ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM2ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM2_00000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM2ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM4ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM4ViveSR_StartModule() check pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:19:11] [LOG] init_S
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:19:11] [LOG] model path : D:/GITHUB_KRAMS/MVG2_Project/MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/model/sceneSemantic/
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:19:11] [LOG] stage 1 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:19:11] [LOG] stage 2 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:19:11] [LOG] stage 3 done
+[ENGINE_AI_SCENE_4] [2020-01-14 15:19:11] [LOG] status : 257
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM4ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM4ViveSR_StartModule() initial pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:19:11] [LOG] Memery alocated
+[ENGINE_AI_SCENE_4] [2020-01-14 15:19:11] [LOG] status : 273
+[ENGINE_AI_SCENE_4] [2020-01-14 15:19:11] [LOG] status : 273
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM4ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM4_00000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM4ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM6ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM6ViveSR_StartModule() check pass
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM6ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM6ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM6ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM6_00000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] SM6ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_ModuleLink() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:19:11] [LOG] Depth_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] LM2-6_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_ModuleLink() end
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_ModuleLink() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:19:11] [LOG] RigidReconstruction_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] LM6-4_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:19:11] [LOG] ViveSR_ModuleLink() end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:18] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:26] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:35] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:44] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:19:53] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:20:02] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:20:11] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:20:20] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:20:29] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:20:38] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:20:47] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:20:56] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:05] [LOG] module alive
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] CLM_M0_M2_mode-1
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() start
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase1
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-0_start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:11] [LOG] TurnOff
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:11] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:11] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:11] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:11] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:11] [LOG] TurnOff end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:11] [LOG] ~Undistortion table
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:11] [LOG] ~Undistortion table
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-0_end
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-1_start
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-1_end
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-2_start
+[ENGINE_DEPTH_2] [2020-01-14 15:21:11] [LOG] release_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:21:11] [LOG] TurnOff
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:21:11] [LOG] TurnOff end
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:21:11] [LOG] Vive Depth Spatial Destruction
+
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-2_end
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-3_start
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-3_end
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-4_start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:21:11] [LOG] release_S
+[ENGINE_AI_SCENE_4] [2020-01-14 15:21:11] [LOG] status : 1118481
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-4_end
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-5_start
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-5_end
+[Vive SRWorks] [2020-01-14 15:21:11] [LOG] ViveSR_Stop() phase2-6_start
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_Stop() phase2-6_end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_Stop() phase2-7_start
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_Stop() phase2-7_end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_Stop() phase3
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] STP_WORKs_ prepare release memory
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_Stop() end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_Initial() success
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SRWorks Version 0.8.0.2
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] OS : Windows 8+
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] CPU GetMemory Total : 16322.000000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] CPU GetMemory InUse : 8084.000000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] GPU : GeForce GTX 1080
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] GPU driver : 43648
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] GPU memory usage : 3278.765625
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] GPU memory loading: 16
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_CreateModule() start
+[ENGINE_SEETHROUGH_0] [2020-01-14 15:21:12] [LOG] ExternalCommandModule_link_to_SeeThrough_mode(first)
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SeeThroughModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] CM_MT1_MID0_00000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_CreateModule() start
+[ENGINE_DEPTH_2] [2020-01-14 15:21:12] [LOG] ExternalCommandModule_link_to_Depth_mode(first)
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] CM_MT4_MID2_00000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_CreateModule() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:21:12] [LOG] ExternalCommandModule_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] CM_MT7_MID4_00000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_CreateModule() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:21:12] [LOG] ExternalCommandModule_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ReconsModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] CM_MT5_MID6_00000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM0ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM0ViveSR_StartModule() check pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:12] [LOG] initialization mode 2-2
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:12] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:12] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:12] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:12] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:12] [LOG] initialization mode end2-2
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM0ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM0ViveSR_StartModule() initial pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:12] [LOG] TurnOn
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:12] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:12] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:12] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:12] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:12] [LOG] TurnOn end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM0ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM0_00000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM0ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM2ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM2ViveSR_StartModule() check pass
+[ENGINE_DEPTH_2] [2020-01-14 15:21:12] [LOG] init_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:21:12] [LOG] initialization mode 0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:21:12] [LOG] initialization mode end0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:21:12] [LOG] f-> x:274.056610 y:274.056610
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:21:12] [LOG] m-> x:320.000000 y:240.000000
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:21:12] [LOG] size->640:480
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:21:12] [LOG] DepthWorldMinMax->0.200000:10.000000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM2ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM2ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM2ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM2_00000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM2ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM4ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM4ViveSR_StartModule() check pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:21:12] [LOG] init_S
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:21:12] [LOG] model path : D:/GITHUB_KRAMS/MVG2_Project/MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/model/sceneSemantic/
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:21:12] [LOG] stage 1 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:21:12] [LOG] stage 2 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:21:12] [LOG] stage 3 done
+[ENGINE_AI_SCENE_4] [2020-01-14 15:21:12] [LOG] status : 257
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM4ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM4ViveSR_StartModule() initial pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:21:12] [LOG] Memery alocated
+[ENGINE_AI_SCENE_4] [2020-01-14 15:21:12] [LOG] status : 273
+[ENGINE_AI_SCENE_4] [2020-01-14 15:21:12] [LOG] status : 273
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM4ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM4_00000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM4ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM6ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM6ViveSR_StartModule() check pass
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM6ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM6ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM6ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM6_00000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] SM6ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_ModuleLink() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:21:12] [LOG] Depth_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] LM2-6_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_ModuleLink() end
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_ModuleLink() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:21:12] [LOG] RigidReconstruction_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] LM6-4_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:21:12] [LOG] ViveSR_ModuleLink() end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:15] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:24] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:32] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:41] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:50] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:21:58] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:22:06] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:22:15] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:22:23] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:22:31] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:22:40] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:22:48] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:22:56] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:23:05] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:23:13] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:23:21] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:23:30] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:23:38] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:23:46] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:23:55] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:24:03] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:24:12] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:24:20] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:24:28] [LOG] module alive
+[Vive SRWorks] [2020-01-14 15:24:35] [LOG] [Manager] alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:24:37] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:24:45] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:24:53] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:25:02] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:25:11] [LOG] module alive
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] CLM_M0_M2_mode-1
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() start
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase1
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-0_start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:25:16] [LOG] TurnOff
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:25:16] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:25:16] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:25:16] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:25:16] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:25:16] [LOG] TurnOff end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:25:16] [LOG] ~Undistortion table
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:25:16] [LOG] ~Undistortion table
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-0_end
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-1_start
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-1_end
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-2_start
+[ENGINE_DEPTH_2] [2020-01-14 15:25:16] [LOG] release_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:25:16] [LOG] TurnOff
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:25:16] [LOG] TurnOff end
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:25:16] [LOG] Vive Depth Spatial Destruction
+
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-2_end
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-3_start
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-3_end
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-4_start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:25:16] [LOG] release_S
+[ENGINE_AI_SCENE_4] [2020-01-14 15:25:16] [LOG] status : 1118481
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-4_end
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-5_start
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-5_end
+[Vive SRWorks] [2020-01-14 15:25:16] [LOG] ViveSR_Stop() phase2-6_start
+[Vive SRWorks] [2020-01-14 15:25:17] [LOG] ViveSR_Stop() phase2-6_end
+[Vive SRWorks] [2020-01-14 15:25:17] [LOG] ViveSR_Stop() phase2-7_start
+[Vive SRWorks] [2020-01-14 15:25:17] [LOG] ViveSR_Stop() phase2-7_end
+[Vive SRWorks] [2020-01-14 15:25:17] [LOG] ViveSR_Stop() phase3
+[Vive SRWorks] [2020-01-14 15:25:17] [LOG] STP_WORKs_ prepare release memory
+[Vive SRWorks] [2020-01-14 15:25:17] [LOG] ViveSR_Stop() end
+[Vive SRWorks] [2020-01-14 15:27:57] [LOG] ViveSR_Stop() start
+[Vive SRWorks] [2020-01-14 15:27:57] [LOG] ViveSR_Stop() phase1
+[Vive SRWorks] [2020-01-14 15:27:57] [LOG] ViveSR_Stop() phase2
+[Vive SRWorks] [2020-01-14 15:27:57] [LOG] ViveSR_Stop() phase3
+[Vive SRWorks] [2020-01-14 15:27:57] [LOG] STP_WORKs_ prepare release memory
+[Vive SRWorks] [2020-01-14 15:27:57] [LOG] ViveSR_Stop() end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_Initial() success
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SRWorks Version 0.8.0.2
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] OS : Windows 8+
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] CPU GetMemory Total : 16322.000000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] CPU GetMemory InUse : 7840.000000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] GPU : GeForce GTX 1080
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] GPU driver : 43648
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] GPU memory usage : 3055.839844
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] GPU memory loading: 19
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_CreateModule() start
+[ENGINE_SEETHROUGH_0] [2020-01-14 15:28:03] [LOG] ExternalCommandModule_link_to_SeeThrough_mode(first)
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SeeThroughModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] CM_MT1_MID0_00000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_CreateModule() start
+[ENGINE_DEPTH_2] [2020-01-14 15:28:03] [LOG] ExternalCommandModule_link_to_Depth_mode(first)
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] CM_MT4_MID2_00000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_CreateModule() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:28:03] [LOG] ExternalCommandModule_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] CM_MT7_MID4_00000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_CreateModule() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:28:03] [LOG] ExternalCommandModule_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ReconsModuleSetDevice:: D3DDevice
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] CM_MT5_MID6_00000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_CreateModule() end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM0ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM0ViveSR_StartModule() check pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:03] [LOG] initialization mode 2-2
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:03] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:03] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:03] [LOG] Create Mapping table start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:03] [LOG] Create Mapping table end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:03] [LOG] initialization mode end2-2
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM0ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM0ViveSR_StartModule() initial pass
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:03] [LOG] TurnOn
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:03] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:03] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:03] [LOG] loading undistortion parameters start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:03] [LOG] loading undistortion parameters end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:03] [LOG] TurnOn end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM0ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM0_00000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM0ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM2ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM2ViveSR_StartModule() check pass
+[ENGINE_DEPTH_2] [2020-01-14 15:28:03] [LOG] init_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:28:03] [LOG] initialization mode 0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:28:03] [LOG] initialization mode end0-0
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:28:03] [LOG] f-> x:274.056610 y:274.056610
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:28:03] [LOG] m-> x:320.000000 y:240.000000
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:28:03] [LOG] size->640:480
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:28:03] [LOG] DepthWorldMinMax->0.200000:10.000000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM2ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM2ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM2ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM2_00000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM2ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM4ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM4ViveSR_StartModule() check pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:28:03] [LOG] init_S
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:28:03] [LOG] model path : D:/GITHUB_KRAMS/MVG2_Project/MVG2_MichelWolf_Fixed/Assets/ViveSR/Plugins/model/sceneSemantic/
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:28:03] [LOG] stage 1 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:28:03] [LOG] stage 2 done
+[ENGINE_AI_SCENE_4_DLL] [2020-01-14 15:28:03] [LOG] stage 3 done
+[ENGINE_AI_SCENE_4] [2020-01-14 15:28:03] [LOG] status : 257
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM4ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM4ViveSR_StartModule() initial pass
+[ENGINE_AI_SCENE_4] [2020-01-14 15:28:03] [LOG] Memery alocated
+[ENGINE_AI_SCENE_4] [2020-01-14 15:28:03] [LOG] status : 273
+[ENGINE_AI_SCENE_4] [2020-01-14 15:28:03] [LOG] status : 273
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM4ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM4_00000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM4ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM6ViveSR_StartModule() start
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM6ViveSR_StartModule() check pass
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM6ViveSR_StartModule() initial end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM6ViveSR_StartModule() initial pass
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM6ViveSR_StartModule() start pass
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM6_00000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] SM6ViveSR_StartModule() end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_ModuleLink() start
+[ENGINE_RIGID_RECONSTRUCTION_6] [2020-01-14 15:28:03] [LOG] Depth_link_to_RigidReconstruction_mode(first)
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] LM2-6_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_ModuleLink() end
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_ModuleLink() start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:28:03] [LOG] RigidReconstruction_link_to_AI_Vision_mode(first)
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] LM6-4_MODE1_00000
+[Vive SRWorks] [2020-01-14 15:28:03] [LOG] ViveSR_ModuleLink() end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:06] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:15] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:24] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:32] [LOG] module alive
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:41] [LOG] module alive
+[Vive SRWorks] [2020-01-14 15:28:44] [LOG] CLM_M0_M2_mode-1
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() start
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase1
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-0_start
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:45] [LOG] TurnOff
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:45] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:45] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:45] [LOG] ~DefishApp
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:45] [LOG] ~DefishApp end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:45] [LOG] TurnOff end
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:45] [LOG] ~Undistortion table
+[ENGINE_SEETHROUGH_0_DLL] [2020-01-14 15:28:45] [LOG] ~Undistortion table
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-0_end
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-1_start
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-1_end
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-2_start
+[ENGINE_DEPTH_2] [2020-01-14 15:28:45] [LOG] release_S
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:28:45] [LOG] TurnOff
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:28:45] [LOG] TurnOff end
+[ENGINE_DEPTH_2_DLL] [2020-01-14 15:28:45] [LOG] Vive Depth Spatial Destruction
+
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-2_end
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-3_start
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-3_end
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-4_start
+[ENGINE_AI_SCENE_4] [2020-01-14 15:28:45] [LOG] release_S
+[ENGINE_AI_SCENE_4] [2020-01-14 15:28:45] [LOG] status : 1118481
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-4_end
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-5_start
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-5_end
+[Vive SRWorks] [2020-01-14 15:28:45] [LOG] ViveSR_Stop() phase2-6_start
+[Vive SRWorks] [2020-01-14 15:28:46] [LOG] ViveSR_Stop() phase2-6_end
+[Vive SRWorks] [2020-01-14 15:28:46] [LOG] ViveSR_Stop() phase2-7_start
+[Vive SRWorks] [2020-01-14 15:28:46] [LOG] ViveSR_Stop() phase2-7_end
+[Vive SRWorks] [2020-01-14 15:28:46] [LOG] ViveSR_Stop() phase3
+[Vive SRWorks] [2020-01-14 15:28:46] [LOG] STP_WORKs_ prepare release memory
+[Vive SRWorks] [2020-01-14 15:28:46] [LOG] ViveSR_Stop() end
+[Vive SRWorks] [2020-01-14 15:29:02] [LOG] UnitySetGraphicsDevice:: D3D11
+[Vive SRWorks] [2020-01-14 15:29:03] [LOG] UnitySetGraphicsDevice:: D3D11

@@ -134,7 +134,7 @@ public class Launcher : MonoBehaviourPunCallbacks {
 
     public void ToggleTutorial()
     {
-        photonView.RPC("RPCToggleTutorial", RpcTarget.Others);
+        //photonView.RPC("RPCToggleTutorial", RpcTarget.Others);
     }
 
     #endregion
@@ -176,6 +176,15 @@ public class Launcher : MonoBehaviourPunCallbacks {
         progressLabel.SetActive(false);
         controlPanel.SetActive(false);
         lobbyPanel.SetActive(true);
+
+        if(PhotonNetwork.IsMasterClient)
+        {
+            toggleTutorial.SetActive(true);
+        }
+        else
+        {
+            toggleTutorial.SetActive(false);
+        }
         
         ShowPlayerNamesInLobby();
         Debug.Log("PUN Basics Tutorial/Launcher: OnJoinedRoom() called by PUN. Now this client is in a room.");

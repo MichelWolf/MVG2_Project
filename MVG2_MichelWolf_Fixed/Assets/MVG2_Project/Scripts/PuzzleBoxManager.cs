@@ -7,6 +7,7 @@ using TMPro;
 
 public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
 
+    [Header("Tutorial")]
     public bool tutorialMode = false;
     public GameObject TutorialSimonCanvas;
     public GameObject TutorialMultiCanvas;
@@ -40,6 +41,8 @@ public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
     public AudioClip finishedPuzzleClip;
     public GameObject finishedText;
 
+    internal float startTime;
+
     void Start () 
     {
         FindObjectOfType<MultiButtonInteractionManager>().numberOfMultiButtons = FindObjectsOfType<MultiButton>().Length;
@@ -67,6 +70,7 @@ public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
             r = PhotonNetwork.Instantiate("ContrModelRight", ctrlRightParent.transform.position, ctrlRightParent.transform.rotation);
             r.transform.SetParent(ctrlRightParent.transform);
         }
+        startTime = Time.time;
     }
 	
 	// Update is called once per frame
@@ -136,10 +140,21 @@ public class PuzzleBoxManager : MonoBehaviourPunCallbacks, IPunObservable  {
         Debug.Log("Puzzlebox vollständig gelöst!");
         GetComponent<AudioSource>().PlayOneShot(finishedPuzzleClip);
         finishedText.SetActive(true);
+
+        
+        
         if (tutorialMode)
         {
             LoadLevelButton.SetActive(true);
             finishedText.GetComponentInChildren<TextMeshProUGUI>().text += "\nPress red ball to load the level";
+        }
+        else
+        {
+            float totalSeconds = (Time.time - startTime);
+            string minutes = Mathf.Floor(totalSeconds / 60).ToString("00");
+            string seconds = (totalSeconds % 60).ToString("00");
+
+            finishedText.GetComponentInChildren<TextMeshProUGUI>().text = "Well done!\nTime: " + minutes + ":" + seconds + " minutes";
         }
     }
 
